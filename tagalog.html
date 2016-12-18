@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)file:///C:/Users/Rowell/Documents/bby/www/index.html -->
+<html class="pixel-ratio-1 watch-active-state pixel-ratio-2 retina android android-6 android-6-0"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Required meta tags-->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="" e="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Children's Book</title>
+    <!-- Path to Framework7 Library CSS, Material Theme -->
+    <link rel="stylesheet" href="./css/framework7.material.min.css">
+    <link rel="stylesheet" href="./css/framework7.material.colors.min.css">
+    <!-- Path to Framework7 color related styles, Material Theme -->
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="./css/my-app.css">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+
+    <div class="views">
+      <div class="view view-main">
+        <div class="navbar">
+
+          <div class="navbar-inner">
+           
+             
+            
+            <div  class="center"> <center> Kwentong Pambata </center> </div>
+         
+          </div>
+        </div>
+
+        <div class="pages navbar-through">
+          <div data-page="home" class="page">
+            <div class="page-content" style="background-image: url(img/cb.jpg)">
+              <div class="content-block-title">Light Theme</div>
+    
+              
+    <div class="content-block row">
+              <div style="padding-top: 5px;">
+              <img src="libro/sikalabasaatduhat/00.png" height="150" width="100">
+              <a href="#"class="button button-fill color-blue button-round button book1">Basahin</a>
+              </div>
+              <div style="padding-top: 5px;">
+              <img src="libro/angalimangoatsijuan/00.png" height="150" width="100">
+              <a href="#" class="button button-fill color-blue button-round button book2">Basahin</a>
+              </div>
+              <div style="padding-top: 5px;">
+              <img src="libro/angpunongkawayan/00.png" height="150" width="100">
+              <a href="#" class="button button-fill color-blue button-round button book3">Basahin</a>
+              </div>
+
+      
+
+                         <div style="padding-top: 5px;">
+    
+              <img src="libro/alamatngpinya/00.png" height="150" width="100">
+              <a href="#" class="button button-fill color-blue button-round button book4">Basahin</a>  
+              </div>
+              <div style="padding-top: 5px;">
+              <img src="libro/alamatngpilipinas/00.png" height="150" width="100">
+              <a href="#" class="button button-fill color-blue button-round button book5">Basahin</a>  
+              </div>
+              <div style="padding-top: 5px;">
+              <img src="libro/alamatngmayon/00.png" height="150" width="100">
+              <a href="#" class="button button-fill color-blue button-round button book6">Basahin</a>  
+              </div>
+    
+
+
+              <div style="padding-top: 5px;">
+              <img src="libro/angasoatanganino/00.png" height="150" width="100">
+              <a href="#" class="button button-fill color-blue button-round button book7">Basahin</a>  
+              </div>
+              <div style="padding-top: 5px;">
+              <img src="libro/simonangmiyaw/00.png" height="150" width="100">
+              <a href="#" class="button button-fill color-blue button-round button book8">Basahin</a>  
+              </div>
+              <div style="padding-top: 5px;">
+              <img src="libro/anginahingmanok/00.png" height="150" width="100">
+              <a href="#" class="button button-fill color-blue button-round button book9">Basahin</a>  
+              </div>
+
+             
+              <div style="padding-top: 5px;">
+              <img src="libro/angparabulangsaging/00.png" height="150" width="100">
+              <a href="#" class="button button-fill color-blue button-round button book10">Basahin</a>  
+              </div>
+
+        
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <script>
+      var myApp = new Framework7(); 
+      
+      var $$ = Dom7;
+      
+      var mainView = myApp.addView('.view-main', {
+        dynamicNavbar: true
+      });
+      
+      /*=== Default standalone ===*/
+      var myPhotoBrowserBook1 = myApp.photoBrowser({
+          photos : [
+              'libro/sikalabasaatduhat/00.png',
+               'libro/sikalabasaatduhat/01.png',
+               'libro/sikalabasaatduhat/02.png',
+               'libro/sikalabasaatduhat/03.png',
+               'libro/sikalabasaatduhat/04.png',
+               'libro/sikalabasaatduhat/05.png',
+               'libro/sikalabasaatduhat/06.png',
+               'libro/sikalabasaatduhat/07.png',
+               'libro/sikalabasaatduhat/08.png',
+               'libro/sikalabasaatduhat/09.png',
+               'libro/sikalabasaatduhat/10.png',
+              'libro/sikalabasaatduhat/11.png',
+             
+          ]
+      });
+      //Open photo browser on click
+      $$('.book1').on('click', function () {
+          myPhotoBrowserBook1.open();
+      });
+
+
+      /*=== Default standalone ===*/
+      var myPhotoBrowserBook2 = myApp.photoBrowser({
+          photos : [
+              'libro/angalimangoatsijuan/00.png',
+               'libro/angalimangoatsijuan/01.png',
+               'libro/angalimangoatsijuan/02.png',
+               'libro/angalimangoatsijuan/03.png',
+               'libro/angalimangoatsijuan/04.png',
+               'libro/angalimangoatsijuan/05.png',
+               'libro/angalimangoatsijuan/06.png',
+  
+          
+          ]
+      });
+      //Open photo browser on click
+      $$('.book2').on('click', function () {
+          myPhotoBrowserBook2.open();
+      });
+
+      /*=== Default standalone ===*/
+      var myPhotoBrowserBook3 = myApp.photoBrowser({
+          photos : [
+              'libro/angpunongkawayan/00.png',
+               'libro/angpunongkawayan/01.png',
+               'libro/angpunongkawayan/02.png',
+               'libro/angpunongkawayan/03.png',
+               'libro/angpunongkawayan/04.png',
+               'libro/angpunongkawayan/05.png',
+               'libro/angpunongkawayan/06.png',
+               'libro/angpunongkawayan/07.png',
+               'libro/angpunongkawayan/08.png',
+               'libro/angpunongkawayan/09.png',
+               'libro/angpunongkawayan/10.png',
+            
+          ]
+      });
+      //Open photo browser on click
+      $$('.book3').on('click', function () {
+          myPhotoBrowserBook3.open();
+      });
+
+      /*=== Default standalone ===*/
+      var myPhotoBrowserBook4 = myApp.photoBrowser({
+          photos : [
+              'libro/alamatngpinya/00.png',
+               'libro/alamatngpinya/01.png',
+               'libro/alamatngpinya/02.png',
+               'libro/alamatngpinya/03.png',
+               'libro/alamatngpinya/04.png',
+               'libro/alamatngpinya/05.png',
+               'libro/alamatngpinya/06.png',
+               'libro/alamatngpinya/07.png',
+               'libro/alamatngpinya/08.png',
+               'libro/alamatngpinya/09.png',
+          ]
+      });
+      //Open photo browser on click
+      $$('.book4').on('click', function () {
+          myPhotoBrowserBook4.open();
+      });
+
+      /*=== Default standalone ===*/
+      var myPhotoBrowserBook5 = myApp.photoBrowser({
+          photos : [
+              'libro/alamatngpilipinas/00.png',
+               'libro/alamatngpilipinas/01.png',
+               'libro/alamatngpilipinas/02.png',
+               'libro/alamatngpilipinas/03.png',
+               'libro/alamatngpilipinas/04.png',
+           
+          ]
+      });
+      //Open photo browser on click
+      $$('.book5').on('click', function () {
+          myPhotoBrowserBook5.open();
+      });
+      
+      /*=== Default standalone ===*/
+      var myPhotoBrowserBook6 = myApp.photoBrowser({
+          photos : [
+              'libro/alamatngmayon/00.png',
+               'libro/alamatngmayon/01.png',
+               'libro/alamatngmayon/02.png',
+               'libro/alamatngmayon/03.png',
+               'libro/alamatngmayon/04.png',
+               'libro/alamatngmayon/05.png',
+               'libro/alamatngmayon/06.png',
+               'libro/alamatngmayon/07.png',
+               'libro/alamatngmayon/08.png',
+
+          ]
+      });
+      //Open photo browser on click
+      $$('.book6').on('click', function () {
+          myPhotoBrowserBook6.open();
+      });
+
+      /*=== Default standalone ===*/
+      var myPhotoBrowserBook7 = myApp.photoBrowser({
+          photos : [
+              'libro/angasoatanganino/00.png',
+               'libro/angasoatanganino/01.png',
+               'libro/angasoatanganino/02.png',
+               'libro/angasoatanganino/03.png',
+               'libro/angasoatanganino/04.png',
+               'libro/angasoatanganino/05.png',
+               'libro/angasoatanganino/06.png',
+
+
+
+          ]
+      });
+      //Open photo browser on click
+      $$('.book7').on('click', function () {
+          myPhotoBrowserBook7.open();
+      });
+
+      /*=== Default standalone ===*/
+      var myPhotoBrowserBook8 = myApp.photoBrowser({
+          photos : [
+              'libro/simonangmiyaw/00.png',
+               'libro/simonangmiyaw/01.png',
+               'libro/simonangmiyaw/02.png',
+               'libro/simonangmiyaw/03.png',
+               'libro/simonangmiyaw/04.png',
+               'libro/simonangmiyaw/05.png',
+               'libro/simonangmiyaw/06.png',
+               'libro/simonangmiyaw/07.png',
+               'libro/simonangmiyaw/08.png',
+               'libro/simonangmiyaw/09.png',
+      
+
+          ]
+      });
+      //Open photo browser on click
+      $$('.book8').on('click', function () {
+          myPhotoBrowserBook8.open();
+      });
+
+       /*=== Default standalone ===*/
+      var myPhotoBrowserBook9 = myApp.photoBrowser({
+          photos : [
+              'libro/anginahingmanok/00.png',
+               'libro/anginahingmanok/01.png',
+               'libro/anginahingmanok/02.png',
+    
+      
+
+          ]
+      });
+      //Open photo browser on click
+      $$('.book9').on('click', function () {
+          myPhotoBrowserBook9.open();
+      });
+
+      /*=== Default standalone ===*/
+      var myPhotoBrowserBook10 = myApp.photoBrowser({
+          photos : [
+              'libro/angparabulangsaging/00.png',
+               'libro/angparabulangsaging/01.png',
+               'libro/angparabulangsaging/02.png',
+              'libro/angparabulangsaging/03.png',
+               'libro/angparabulangsaging/04.png',
+      
+
+          ]
+      });
+      //Open photo browser on click
+      $$('.book10').on('click', function () {
+          myPhotoBrowserBook10.open();
+      });
+
+
+
+    </script>
+  </body>
+</html>
